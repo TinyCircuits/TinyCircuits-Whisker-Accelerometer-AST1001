@@ -48,7 +48,7 @@ void setup() {
   delay(1000);
 
   // Set the cursor to the following coordinates before it prints "BMA250 Test" 
-  selectPort(1);
+  selectPort(0);
   acccel_sensor.begin(BMA250_range_2g, BMA250_update_time_64ms); // Sets up the BMA250 acccel_sensorerometer
   display.clearScreen();
 }
