@@ -1,5 +1,5 @@
 /*************************************************************************
- * BMA250 WhiskerBoard Tutorial:
+ * Accelerometer BMA250 Sensor Tutorial:
  * This example program will show the basic method of printing out the 
  * accelerometer values from the BMA250 to the TinyScreen+, Serial Monitor, 
  * and the Serial Plotter
