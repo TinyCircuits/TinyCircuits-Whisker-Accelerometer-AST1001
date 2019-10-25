@@ -25,4 +25,3 @@ class BMA250 {
     int16_t X, Y, Z, rawTemp;
 };
 #endif
-

@@ -42,5 +42,3 @@ void BMA250::read()
   //Receive temperature measurement
   rawTemp = Wire.read();
 }
-
-

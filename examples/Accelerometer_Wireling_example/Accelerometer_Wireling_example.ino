@@ -1,5 +1,5 @@
 /*************************************************************************
- * Accelerometer BMA250 Sensor Tutorial:
+ * Accelerometer BMA250 Wireling Tutorial:
  * This example program will show the basic method of printing out the 
  * accelerometer values from the BMA250 to the TinyScreen+, Serial Monitor, 
  * and the Serial Plotter
@@ -92,7 +92,7 @@ void loop() {
   // ***Without the delay, there would not be any sensor output*** 
 }
 
-// **This function is necessary for all Whisker boards attached through an Adapter board**
+// **This function is necessary for all Wireling boards attached through an Adapter board**
 // Selects the correct address of the port being used in the Adapter board
 void selectPort(int port) {
   Wire.beginTransmission(0x70);
